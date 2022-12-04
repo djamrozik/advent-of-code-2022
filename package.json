@@ -4,6 +4,7 @@
     "typescript": "^4.9.3"
   },
   "scripts": {
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "build": "npx tsc --build tsconfig.json && cp -r ./src/data/ ./out/data/",
     "day1": "npm run build && node ./out/1/index.js",
     "day2a": "npm run build && node ./out/2/part1.js",
@@ -11,5 +12,8 @@
     "day3a": "npm run build && node ./out/3/part1.js",
     "day3b": "npm run build && node ./out/3/part2.js",
     "day4": "npm run build && node ./out/4/index.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0"
   }
 }
