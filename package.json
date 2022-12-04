@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@types/node": "^18.11.10",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "npx tsc --build tsconfig.json && cp -r ./src/data/ ./out/data/",
+    "day1": "npm run build && node ./out/1/index.js",
+    "day2a": "npm run build && node ./out/2/part1.js",
+    "day2b": "npm run build && node ./out/2/part2.js",
+    "day3a": "npm run build && node ./out/3/part1.js",
+    "day3b": "npm run build && node ./out/3/part2.js"
+  }
+}

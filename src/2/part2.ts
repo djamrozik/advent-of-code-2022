@@ -1,6 +1,8 @@
 import * as fs from 'fs';
+const path = require('path');
 
-const inputText = fs.readFileSync('./data/input.txt','utf8');
+const joinedPath = path.join(__dirname, './../data/input_2.txt');
+const inputText = fs.readFileSync(joinedPath,'utf8');
 const inputTextLines = inputText.split("\n");
 
 enum Shape {
