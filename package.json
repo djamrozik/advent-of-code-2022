@@ -19,7 +19,8 @@
     "day8": "npm run build && node ./out/8/index.js",
     "day9a": "npm run build && node ./out/9/part1.js",
     "day9b": "npm run build && node ./out/9/part2.js",
-    "day10": "npm run build && node ./out/10/index.js"
+    "day10": "npm run build && node ./out/10/index.js",
+    "day11": "npm run build && node ./out/11/index.js"
   },
   "devDependencies": {
     "prettier": "^2.8.0"
