@@ -23,7 +23,8 @@
     "day10": "npm run build && node ./out/10/index.js",
     "day11": "npm run build && node ./out/11/index.js",
     "day11bn": "npm run build && node ./out/11/big-number-approach/index.js",
-    "day12": "npm run build && node ./out/12/index.js"
+    "day12": "npm run build && node ./out/12/index.js",
+    "day13": "npm run build && node ./out/13/index.js"
   },
   "devDependencies": {
     "prettier": "^2.8.0"
